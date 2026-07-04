@@ -168,88 +168,37 @@ body{
     box-shadow:0 15px 50px rgba(0,0,0,.15);
 }
 
-.left{
-    flex:1;
-}
-
-.right{
-    flex:1;
+.panel{
+    min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
+    background:#f5f5f5;
+    padding:40px 20px;
 }
 
-.right img{
+.paper{
+    width:min(92vw,620px);
+    background:white;
+}
+
+.paper-image{
     width:100%;
-}
-
-.left h1{
-    font-size:48px;
-    margin-bottom:30px;
-    font-weight:400;
-}
-
-.left p{
-    line-height:1.8;
-    white-space:pre-line;
-}
-
-.journal-card{
     display:block;
 }
 
-.journal-image{
-    width:100%;
-    margin-bottom:30px;
+.journal-content{
+    padding:25px;
+    display:grid;
+    grid-template-columns:90px 1fr;
+    column-gap:18px;
 }
 
 .date{
-    font-size:24px;
-    margin-bottom:20px;
+    font-size:18px;
 }
 
-.journal-content p{
-    line-height:2;
-    white-space:pre-line;
-}
-
-/* Editable text styling */
-[contenteditable="true"]{
-    outline:none;
-}
-
-[contenteditable="true"]:focus{
-    border-bottom:2px solid #777;
-}
-
-.poster{
-    position:relative;
-    width:900px;
-    max-width:90%;
-}
-
-.poster-image{
-    width:100%;
-    display:block;
-}
-
-.text-box{
-    position:absolute;
-
-    top:80px;
-    left:60px;
-
-    width:280px;
-}
-
-.text-box h1{
-    font-size:50px;
-    font-weight:400;
-    margin-bottom:25px;
-}
-
-.text-box p{
-    font-size:20px;
+.entry{
     line-height:1.8;
-    white-space:pre-line;
+    font-size:18px;
 }

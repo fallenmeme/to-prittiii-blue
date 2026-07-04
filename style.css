@@ -221,3 +221,35 @@ body{
 [contenteditable="true"]:focus{
     border-bottom:2px solid #777;
 }
+
+.poster{
+    position:relative;
+    width:900px;
+    max-width:90%;
+}
+
+.poster-image{
+    width:100%;
+    display:block;
+}
+
+.text-box{
+    position:absolute;
+
+    top:80px;
+    left:60px;
+
+    width:280px;
+}
+
+.text-box h1{
+    font-size:50px;
+    font-weight:400;
+    margin-bottom:25px;
+}
+
+.text-box p{
+    font-size:20px;
+    line-height:1.8;
+    white-space:pre-line;
+}

@@ -117,10 +117,6 @@ body{
    PAGE 3
 ========================================== */
 
-/* ===========================
-   PAGE 3
-=========================== */
-
 .journal-page{
 
     background:#f3f3f3;
@@ -216,8 +212,8 @@ body{
     font-size:11px;
 }
 
-.journal-content{
-    grid-template-columns:70px 1fr;
+.journal-body{
+    gap:15px;
 }
 
 .journal-entry{
@@ -273,3 +269,5 @@ body{
 }
 
 }
+
+
